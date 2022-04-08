@@ -2,7 +2,7 @@ import React,{useEffect, useState} from 'react'
 import './App.css';
 import igredientsData from './data/igredients.json'
 import recipesData from './data/recipes.json'
-import Recipe from './Recipe';
+import Recipe from './recipe';
 import {BrowserRouter, Route, Routes, Link} from 'react-router-dom';
 
 
@@ -84,8 +84,8 @@ function App() {
   
       <div className="container products">
       {recipes.map((recipe, index) => <div key={index} className="item-big">
-      {/* <Link to={{path:'/recipe', state:recipe}}> */}
-      <Link to='/recipe' state={recipe}>
+      {/* <Link to={{pathname:'/recipe', state:'KGKGKGKGKG'}}> */}
+      <Link to='/recipe' state={{recipe:recipe}}>
       <img src={recipe.image}></img>
       </Link>
       <h6>{recipe.name}</h6>
