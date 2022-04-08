@@ -36,3 +36,109 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #eee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width:1000px;
+  margin: 0 auto;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.item {
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  width: 11%;
+  cursor: pointer;
+}
+
+.item img {
+  width: 100%;
+  height:80%;
+}
+
+.item h6 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.item-big {
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  width: 24%;
+  cursor: pointer;
+}
+
+.item-big img {
+  width:100%;
+  height: 80%;
+}
+
+.item-big h6 {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.getRecipesBtn  {
+  background-color:#282c34;
+  color:white;
+  width:220px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  flex: 1;
+  cursor: pointer;
+}
+
+.getRecipesBtn h5 {
+  margin:auto;
+  padding: 8px;
+  text-align: center;
+}
+
+.greenBG {
+  background-color: #2ecc71;
+}
+
+.whiteBG {
+  background-color: #fff;
+}

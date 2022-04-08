@@ -1,0 +1,38 @@
+[
+    {
+        "name":"garlic",
+        "img": "https://www.exotic-seeds.store/6566-large_default/porcelain-garlic-cloves.jpg"
+        
+    },
+    {
+        "name": "salt",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Table_salt_with_salt_shaker_V1.jpg/1236px-Table_salt_with_salt_shaker_V1.jpg"
+    },
+    {
+        "name": "lemons",
+        "img" : "https://i5.walmartimages.com/asr/b34574b9-0476-40d6-95b8-a54d0dd92bfb_1.5c2cf0cddcc03ee5aa1e181afe8be355.jpeg"
+    },
+    {
+        "name":"eggs",
+        "img":"https://solidstarts.com/wp-content/uploads/when-can-babies-eat-eggs.jpg"
+    },
+    {
+        "name":"dill",
+        "img":"https://st2.myideasoft.com/shop/ir/87/myassets/products/914/dereotu-tohumu-dill-bouquet-1.jpg"
+    },
+    {
+        "name":"butter",
+        "img":"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F23%2F2020%2F10%2F07%2Ftypes-of-butter-varieties-guide-2000.jpg&q=60"
+    },
+    {
+        "name":"parsley",
+        "img":"https://www.semistrani.it/WebRoot/StoreIT8/Shops/175770/5BDC/7687/DC3F/039A/23B2/0A0A/B010/AD94/Prezzemolo_mazzetto.jpg"
+    },
+    {
+        "name":"honey",
+        "img":"https://www.elationnaturals.com/wp-content/uploads/2021/06/photo-1587049352851-8d4e89133924.jpg"
+    }
+
+
+
+]
